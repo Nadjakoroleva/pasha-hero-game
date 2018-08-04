@@ -32,8 +32,8 @@ function draw () {
   background ('#8CA090');
   oboi.resize(800, 800);
   background(oboi);
-  oboi.resize(800, 800);
-  background(oboi);
+  // oboi.resize(800, 800);
+  // background(oboi);
   hero.resize(0, 110);
   image(hero, x, y);
   am.resize (0, 95);
@@ -77,7 +77,7 @@ function draw () {
     fill('#C62EC6');
     h = 100 - 5 * millis() / 1000 + dh;
     if (h > 100) {
-let k =  h % 100;
+			let k =  h % 100;
       
     }
     
