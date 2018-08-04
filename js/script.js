@@ -1,7 +1,7 @@
 let hero;
 let oboi;
 let am;
-let x;
+let x = 0;
 let dx = 10;
 let y = 0;
 let dy = 10;
